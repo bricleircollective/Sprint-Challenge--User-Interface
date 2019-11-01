@@ -254,3 +254,16 @@ footer nav a {
     text-decoration: none;
 }
 
+.top-middle{
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-middle{
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    align-items: center;
+}

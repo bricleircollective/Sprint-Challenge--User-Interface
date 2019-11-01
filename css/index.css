@@ -71,6 +71,26 @@ p {
     margin: 0 auto;
 }
 
+.top-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+    padding: 2%;
+    align-items: center;
+}
+.top-nav-bar a:link {
+	color: black;
+	text-decoration: none;
+	padding: 2% auto;
+}
+.banner-img{
+    display: flex;
+    width: 850px;
+    margin: 0 auto;
+    padding: 2%;
+    align-content: center;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,11 +121,101 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box-1 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background: teal;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-2 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: gold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-3 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: cadetblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-4 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: coral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-5 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-6 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: forestgreen;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-7 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: darkorchid;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-8 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: hotpink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-9 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: indigo;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-10 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: dodgerblue;
     color: white;
     display: flex;
     align-items: center;
@@ -144,3 +254,64 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.top-middle{
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2%;
+    padding: 2%
+}
+
+.bottom-middle{
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2%;
+    padding: 2%;
+}
+.about{
+    padding: 2%;
+}
+
+button{
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#eianphoto {
+    width: 500px;
+}
+#eianphoto {
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    background-color: red;
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: none;
+    animation-play-state: running;
+  }
+  
+  @keyframes stretch {
+    0% {
+      transform: scale(.3);
+      background-color: red;
+      border-radius: 100%;
+    }
+    50% {
+      background-color: orange;
+    }
+    100% {
+      transform: scale(1.5);
+      background-color: yellow;
+    }
+  }
